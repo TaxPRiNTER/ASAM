@@ -23,7 +23,8 @@ wait(3000)
 
 
 wait(2000)
-
+console.warn("Starting scanning, don't be alarmed")
+wait(3000")
 const ns = {
   //injects client js file
   require: async u => {
@@ -42,9 +43,6 @@ const ns = {
     });
   },
 }
-
-console.warn("Starting scanning, don't be alarmed")
-wait(3000")
 
 fetch('https://raw.githubusercontent.com/TaxPRiNTER/ASAM/main/libraries/modules.js')
 .then(response => response.text())
