@@ -48,7 +48,7 @@ fetch('https://raw.githubusercontent.com/TaxPRiNTER/ASAM/main/libraries/modules.
 .then(txt => eval(txt))
 
 
-console.log("%cScan Finished", "background-color: red;)
+console.log("Scan Finished")
 
 console.log("Results for", document.domain, ":")
 console.log(websiteinfo)
