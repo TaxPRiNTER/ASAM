@@ -19,8 +19,3 @@ fetch(document.location.origin + "/wp-json").then((response) => {
       console.log("No Wordpress")
     }
 });
-
-console.log("%cScan Finished", "background-color: red;)
-
-console.log("Results for", document.domain, ":")
-console.log(websiteinfo)
