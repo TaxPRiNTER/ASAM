@@ -5,3 +5,7 @@ if(document.querySelector("#__nuxt")) {
 else if(document.querySelector("#__next")) {
     console.log("Target seems to be running NUXT.")
 }
+
+else {
+    console.log("Unknown Framework.")
+}
