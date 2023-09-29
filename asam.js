@@ -48,10 +48,6 @@ fetch('https://raw.githubusercontent.com/TaxPRiNTER/ASAM/main/libraries/modules.
 .then(txt => eval(txt))
 
 
-console.log("Scan Finished")
-
-console.log("Results for", document.domain, ":")
-
 fetch('https://raw.githubusercontent.com/TaxPRiNTER/ASAM/main/functions/mainscan.js')
 .then(response => response.text())
 .then(txt => eval(txt))
