@@ -51,7 +51,6 @@ fetch('https://raw.githubusercontent.com/TaxPRiNTER/ASAM/main/libraries/modules.
 console.log("Scan Finished")
 
 console.log("Results for", document.domain, ":")
-console.log(websiteinfo)
 
 fetch('https://raw.githubusercontent.com/TaxPRiNTER/ASAM/main/functions/mainscan.js')
 .then(response => response.text())
