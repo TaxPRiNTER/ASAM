@@ -3,5 +3,5 @@ if(document.querySelector("#__nuxt")) {
 }
 
 else if(document.querySelector("#__next")) {
-    console.log("Target seems to be running NUXT.")
+    console.log("Target seems to be running NEXT.", "color: red")
 }
