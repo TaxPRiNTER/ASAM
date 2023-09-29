@@ -1,2 +1,2 @@
 console.log("%cMODULE    FUNCTION       VERSION", "background-color: red")
-console.log("Nuxt      Framework      1.0\n Next      Framework      1.0\n  NodeJS    Framework      1.0")
+console.log("Nuxt      Framework      1.0\nNext      Framework      1.0\nNodeJS    Framework      1.0")
