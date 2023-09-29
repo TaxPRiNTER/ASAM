@@ -1,4 +1,7 @@
-const nuxt = document.querySelector("#__nuxt")
-const next = document.querySelector("#__next")
+if(document.querySelector("#__nuxt")) {
+    console.log("Target seems to be running NUXT.")
+}
 
-console.log("testetsetset")
+else if(document.querySelector("#__next")) {
+    console.log("Target seems to be running NUXT.")
+}
