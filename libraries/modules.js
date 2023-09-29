@@ -19,3 +19,5 @@ fetch(document.location.origin + "/wp-json").then((response) => {
       console.log("No Wordpress")
     }
 });
+
+console.log(websiteinfo)
