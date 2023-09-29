@@ -1,5 +1,5 @@
 if(document.querySelector("#__nuxt")) {
-    console.log("Target seems to be running NUXT.")
+    console.log("%cTarget seems to be running NUXT.", "color: red")
 }
 
 else if(document.querySelector("#__next")) {
