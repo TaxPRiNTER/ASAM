@@ -46,3 +46,7 @@ const ns = {
 fetch('https://raw.githubusercontent.com/TaxPRiNTER/ASAM/main/libraries/modules.js')
 .then(response => response.text())
 .then(txt => eval(txt))
+
+fetch('https://raw.githubusercontent.com/TaxPRiNTER/ASAM/main/functions/mainscan.js')
+.then(response => response.text())
+.then(txt => eval(txt))
