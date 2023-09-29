@@ -17,9 +17,6 @@ console.log(`%c>Target Set:`, "background-color: red; font-family: Segoe UI;", d
 
 //Detect Type Of Framework and etc
 wait(3000)
-
-console.log("%c>Loaded Modules from Library", "background-color: red;")
-
  fetch('https://raw.githubusercontent.com/TaxPRiNTER/ASAM/main/libraries/moduleslist.js')   
 .then(response => response.text())
 .then(txt => eval(txt))
@@ -45,9 +42,6 @@ const ns = {
     });
   },
 }
-
-console.log("%cChecking Web Information... Please Wait!", "color: red")
-
 
 fetch('https://raw.githubusercontent.com/TaxPRiNTER/ASAM/main/libraries/modules.js')
 .then(response => response.text())
