@@ -1,5 +1,3 @@
-var websiteinfo = []
-
 if(document.querySelector("#__nuxt")) {
     console.log("%cTarget seems to be running NUXT.", "color: red")
     websiteinfo.push("Running Nuxt")
