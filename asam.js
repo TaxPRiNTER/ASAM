@@ -18,8 +18,7 @@ console.log(`%c>Target Set:`, "background-color: red; font-family: Segoe UI;", d
 //Detect Type Of Framework and etc
 wait(3000)
 
-libraries = ["Nuxt", "Next"]
-console.log("Loaded", libraries.length, "Modules from Library") 
+console.log("Loaded all Modules from Library") 
 
  fetch('https://raw.githubusercontent.com/TaxPRiNTER/ASAM/main/libraries/moduleslist.js')   
 .then(response => response.text())
