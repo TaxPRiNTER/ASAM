@@ -23,8 +23,6 @@ wait(3000)
 
 
 wait(2000)
-console.warn("Starting scanning, don't be alarmed")
-
 
 const ns = {
   //injects client js file
