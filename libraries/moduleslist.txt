@@ -1,1 +1,1 @@
-Nuxt      Framework      1.0 Next      Framework      1.0  NodeJS    Framework      1.0
+"Nuxt      Framework      1.0 Next      Framework      1.0  NodeJS    Framework      1.0"
