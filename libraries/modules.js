@@ -10,4 +10,7 @@ fetch(document.location.origin + "/wp-json").then((response) => {
     if(response.status == 200 || response.status != 404) {
         console.log("Running Wordpress")
     }
+    else {
+      console.log("No Wordpress")
+    }
 });
