@@ -1,7 +1,7 @@
 if(document.querySelector("#__nuxt")) {
-    console.log("%cTarget seems to be running NUXT.", "color: red")
+    console.log(`%c> Framework Used: `, "background-color: red; font-family: Segoe UI;", "NUXT")
 }
 
 else if(document.querySelector("#__next")) {
-    console.log("Target seems to be running NEXT.", "color: red")
+    console.log(`%c> Framework Used: `, "background-color: red; font-family: Segoe UI;", "NEXT")
 }
