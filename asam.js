@@ -10,8 +10,6 @@ function wait(ms){
 }
 
 
-console.log("%cAPI Scanner And More \n Loaded Version: 1.0", "background-color: green;")
-
 console.log(`%c>Target Set:`, "background-color: red; font-family: Segoe UI;", document.domain)
 
 
